@@ -49,7 +49,7 @@
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "heroku-prebuild": "npm install --force && --legacy-peer-deps"
+    "heroku-prebuild": "rm -rf node_modules/  && npm install --force"
   },
   "eslintConfig": {
     "extends": [
