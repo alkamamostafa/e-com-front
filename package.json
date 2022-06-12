@@ -50,7 +50,7 @@
     "heroku-postbuild": "npm run build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "heroku-prebuild": "npm install --legacy-peer-deps  &&  npm install --force"
+    "heroku-prebuild": " npm install --force"
   },
   "eslintConfig": {
     "extends": [
@@ -76,10 +76,5 @@
     "@types/react-redux": "^7.1.16",
     "@types/react-router-dom": "^5.1.7",
     "prettier": "2.6.2"
-  },
-
-  "engines": {
-    "npm": "8.7.0",
-    "node": "16.14.2"
   }
 }
