@@ -50,7 +50,7 @@
     "heroku-postbuild": "npm run build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "heroku-prebuild": " npm install --force && npm install --legacy-peer-deps  "
+    "heroku-prebuild": " npm install --force --legacy-peer-deps  "
   },
   "eslintConfig": {
     "extends": [
