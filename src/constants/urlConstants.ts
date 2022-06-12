@@ -1,5 +1,5 @@
-export const API_BASE_URL = "https://e-com-dev.herokuapp.com/api/v1";
-export const WEBSOCKET_URL = "https://e-com-dev.herokuapp.com/websocket";
+export const API_BASE_URL = "http://localhost:8088/api/v1";
+export const WEBSOCKET_URL = "http://localhost:8088/websocket";
 
 export const GRAPHQL = "/graphql";
 export const USER = "/user";
