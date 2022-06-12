@@ -50,7 +50,7 @@
     "heroku-postbuild": "npm run build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "heroku-prebuild": "rm -rf node_modules/  && npm install --force"
+    "heroku-prebuild": "npm install --force"
   },
   "eslintConfig": {
     "extends": [
